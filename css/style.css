@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic,sans-serif;}
+            
+.contenedor #resultado{
+    background-color: #666;
+    padding: 9px;
+    height:2.5em;
+    width:14.5em;
+            }
+            
+.contenedor button {
+    margin:2px 0px;
+    padding: 15px 24px;
+    font-size: 19px;
+            }
+
+.contenedor {
+    background-color: #ededed;
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+    width:18em;
+    position:relative;
+            }
+
+.contenedor .pantalla {
+    padding: 18px 18px 0px 18px;
+            }
+
+.contenedor .teclas {
+    display:flex;
+            }
+
+
+.contenedor .numeros{
+    padding: 18px 9px 18px 18px;
+            }
+            
+.contenedor .numeros div{
+    text-align: center;
+            }
+
+.contenedor .numeros button{
+    border: 0px;
+    background-color: #fff;
+            }
+
+.contenedor .numeros button:hover{
+    box-shadow: 0px 0px 12px #aaa;
+    cursor:pointer;
+            }
+            
+.contenedor .op {
+    padding:18px 18px 18px 9px;
+    margin-top:1px;
+    margin-left:-10px;
+            }
+
+.contenedor .op button{
+    width:54px;
+    height:54px;
+    padding:9px;
+    display:block;
+    background-color: rgba(30,60,160,0.12);
+    border: none;
+            }
+
+.contenedor .op button:hover{
+    box-shadow: 0px 0px 12px #aaa;
+    cursor:pointer;
+}
+
+#i{
+    position:absolute;
+    top:13.95em;
+    left:7.6em;
+            }
+
+#x{
+    position:absolute;
+    left:1em;
+    width:3em!important;
+            }
